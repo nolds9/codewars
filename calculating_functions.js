@@ -1,0 +1,14 @@
+let zero = op =>  op ? op(0) : 0
+let one = op =>   op ? op(1) : 1
+let two = op =>   op ? op(2) : 2
+let three = op => op ? op(3) : 3
+let four = op =>  op ? op(4) : 4
+let five = op =>  op ? op(5) : 5
+let six = op =>   op ? op(6) : 6
+let seven = op => op ? op(7) : 7
+let eight = op => op ? op(8) : 8
+let nine = op =>  op ? op(9) : 9
+let plus = x => y => x + y
+let minus = x => y => y - x
+let dividedBy = x => y => y / x
+let times = x => y => y * x
